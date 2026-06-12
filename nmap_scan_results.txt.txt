@@ -1,0 +1,61 @@
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-06-10 20:47 +0200
+NSE: Loaded 158 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 20:47
+Completed NSE at 20:47, 0.00s elapsed
+Initiating NSE at 20:47
+Completed NSE at 20:47, 0.00s elapsed
+Initiating NSE at 20:47
+Completed NSE at 20:47, 0.00s elapsed
+Initiating SYN Stealth Scan at 20:47
+Scanning localhost (127.0.0.1) [1000 ports]
+Discovered open port 445/tcp on 127.0.0.1
+Discovered open port 135/tcp on 127.0.0.1
+Completed SYN Stealth Scan at 20:47, 0.14s elapsed (1000 total ports)
+Initiating Service scan at 20:47
+Scanning 2 services on localhost (127.0.0.1)
+Completed Service scan at 20:47, 6.11s elapsed (2 services on 1 host)
+Initiating OS detection (try #1) against localhost (127.0.0.1)
+NSE: Script scanning 127.0.0.1.
+Initiating NSE at 20:47
+Completed NSE at 20:48, 14.30s elapsed
+Initiating NSE at 20:48
+Completed NSE at 20:48, 0.04s elapsed
+Initiating NSE at 20:48
+Completed NSE at 20:48, 0.00s elapsed
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00068s latency).
+Other addresses for localhost (not scanned): ::1
+Not shown: 998 closed tcp ports (reset)
+PORT    STATE SERVICE       VERSION
+135/tcp open  msrpc         Microsoft Windows RPC
+445/tcp open  microsoft-ds?
+Device type: general purpose
+Running: Microsoft Windows 11
+OS CPE: cpe:/o:microsoft:windows_11
+OS details: Microsoft Windows 11 24H2 - 25H2
+Uptime guess: 0.034 days (since Wed Jun 10 19:59:02 2026)
+Network Distance: 0 hops
+TCP Sequence Prediction: Difficulty=253 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-time: 
+|   date: 2026-06-10T18:47:48
+|_  start_date: N/A
+| smb2-security-mode: 
+|   3.1.1: 
+|_    Message signing enabled and required
+
+NSE: Script Post-scanning.
+Initiating NSE at 20:48
+Completed NSE at 20:48, 0.00s elapsed
+Initiating NSE at 20:48
+Completed NSE at 20:48, 0.00s elapsed
+Initiating NSE at 20:48
+Completed NSE at 20:48, 0.00s elapsed
+Read data files from: C:\Program Files (x86)\Nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 22.98 seconds
+           Raw packets sent: 1016 (45.418KB) | Rcvd: 2042 (87.170KB)
